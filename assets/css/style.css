@@ -16,3 +16,23 @@ div {
     border: 1px solid #000;
     background-color: #FF0;
 }
+
+section:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
+    overflow-x:auto;
+    position: relative;
+}
+
+section:first-child div:nth-child(7){
+    background-color: aqua;
+    position: fixed;
+    top: 30px;
+    left:30px;
+    /*
+    bottom: ;
+    right: ;
+    */
+}
